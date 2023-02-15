@@ -50,3 +50,22 @@ td{
 table{
     margin: 9px;
 }
+
+ul.navbar-horizontal{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.navbar-hoizontal li{
+    float:left;
+    color:black;
+    background-color: blueviolet;
+}
+ul.navbar.horizontal a{
+    display:block;
+    padding:6px
+}
+ul.navbar-horizontal a:hover{
+    background-color: aquamarine;
+    color:black;
+}
