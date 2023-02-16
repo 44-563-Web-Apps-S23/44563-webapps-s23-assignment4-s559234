@@ -33,14 +33,15 @@
     border-left: 6px solid red;
 }
 tr:nth-child(even){
-    background-color: rgb(160, 150, 200);
+    background-color:#d58585;
     color: black;
-}
+    }
 th{
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: left;
-    background-color: azure;
+    background-color: rgb(19, 113, 113);
+    color:rgb(81, 76, 68);
 }
 td{
     border: 2px;
@@ -56,12 +57,12 @@ ul.navbar-horizontal{
     margin: 0;
     padding: 0;
 }
-ul.navbar-hoizontal li{
+ul.navbar-horizontal li{
     float:left;
     color:black;
     background-color: blueviolet;
 }
-ul.navbar.horizontal a{
+ul.navbar-horizontal a{
     display:block;
     padding:6px
 }
